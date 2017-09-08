@@ -1,0 +1,50 @@
+{
+  "name": "userregistration",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "webpack": "webpack",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "^4.15.4",
+    "falcor": "^0.1.17",
+    "falcor-express": "^0.1.4",
+    "falcor-http-datasource": "^0.1.3",
+    "falcor-router": "^0.8.1",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "serve-favicon": "~2.4.2",
+    "webpack": "^3.5.5"
+  },
+  "description": "User Registration with Node and Express JS",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasancec/UserRegistration.git"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "Vasanthakumar.K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasancec/UserRegistration/issues"
+  },
+  "homepage": "https://github.com/vasancec/UserRegistration#readme"
+}
